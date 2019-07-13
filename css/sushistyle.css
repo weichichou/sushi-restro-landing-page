@@ -1,0 +1,54 @@
+body{
+    height: 100%;
+}
+
+video{
+position:fixed;
+    top:10%;
+    right:0;
+/*    min-height: 100%;*/
+    min-width: 100%;
+    z-index: 1;
+}
+
+div{
+    margin-top: 10%;
+    position:relative;
+    z-index: 2;
+    text-align: center;
+}
+
+h1{
+    color:black;
+    font-size:5em;
+    background-color:beige;
+    padding: 40px;
+    opacity: 0.7;
+}
+
+p{
+    color:floralwhite;
+    margin-bottom: 40px;
+}
+
+a{
+    display: inline-block;
+    color:white;
+    padding:10px;
+    border: solid 2px floralwhite;
+    text-decoration: none;
+    
+}
+
+/*a:link, visited, hover, active*/
+
+a:link, a:visited{
+    color:antiquewhite;
+}
+
+a:hover{
+    color:palevioletred;
+    font-weight: bold;
+    background-color:lightpink;
+    border: solid 2px palevioletred;
+}
